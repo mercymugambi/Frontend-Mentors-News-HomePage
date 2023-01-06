@@ -1,0 +1,21 @@
+header{
+    margin: 30px 10px;
+    padding: 25px;
+}
+#navbar{
+    border: 1px solid red;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+}
+#logo{
+    display: flex;
+    align-self: left;
+    padding: 20px 30px;
+    font-size: 35px;
+    font-weight: 900;
+}
+#navbar ul{
+    display: flex;
+}
+
