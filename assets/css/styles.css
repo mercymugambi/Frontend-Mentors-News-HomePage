@@ -1,9 +1,12 @@
+
 /*--Navbar*/
 *{
     margin: 0;
 }
 body{
     background-color: #fafafa;
+    margin: 0 3em;
+    font-size: 15px;
 }
 header{
     background-color: #fafafa;
@@ -28,7 +31,80 @@ header{
     text-decoration: none;
 }
 #logo{
-    font-size: 24px;
+    font-size: 44px;
     font-weight: 900;
     color: #000000;
 }
+
+/*--main with 3 sections--*/
+
+.floatLeft{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+    padding: 0 3em;
+}
+.LeftContainer{
+    width: 795px;
+}
+.LeftContainer #web3image img{
+    width: 795px;
+    height: 240px;
+}
+#rightToImage{
+    margin-left: 2em;
+    margin-right: 1em;
+    background-color: #131313;
+    height: 460px;
+}
+#rightToImage h2{
+    color: #FFD700;
+    padding-top: 24px;
+    padding-left: 14px;
+    padding-bottom: 0;
+    font-size: 35px;
+}
+#toRightContent{
+    margin: 1em;
+}
+#toRightContent h3{
+    color: #ffffff;
+    margin: 1em 0;;
+}
+#toRightContent p{
+    color: #E5E4E2;
+    margin: 1em 0;
+}
+#containerContent{
+    display: flex;
+    margin: 24px 0;
+}
+#headingLeft {
+    padding-right: 2em;
+    width: 80%;
+}
+#headingLeft h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+#containerRightContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#containerRightContent p{
+    font-size: 21px;
+    padding: 1em 1em 1em 0;
+    color: #808080;
+}
+#readmore{
+    background-color: #FF4433;
+    border: none;
+    color: #E5E4E2;
+    text-align: center;
+    font-size: 17px;
+    align-self: flex-start;
+    width: 50%;
+    height: 50px;
+}
+
