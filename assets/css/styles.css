@@ -9,6 +9,7 @@ body{
 }
 header{
     background-color: #fafafa;
+    
 }
 .header-nav{
     display: flex;
@@ -137,9 +138,9 @@ header{
 }
 #contents p{
     color: #808080;
-    justify-content: left;
 }
 footer{
     display: flex;
-    padding: 0 3.8em;  
+    padding: 0 3.8em; 
+    justify-content: center; 
 }
