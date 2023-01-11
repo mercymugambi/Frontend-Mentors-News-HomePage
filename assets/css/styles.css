@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 /*--Navbar*/
 *{
     margin: 0;
+    padding: 0;
 }
 body{
     background-color: #fafafa;
     margin: 0 3em;
     font-size: 15px;
+    font-family: 'Inter', sans-serif;
 }
 header{
     background-color: #fafafa;
@@ -17,6 +20,11 @@ header{
     align-items: center;
     height: 60px;
     padding: 3em 3.8em 1em 3.8em;
+}
+.container{
+    display: flex;
+    align-items: center;
+    
 }
 
 .header-nav ul{
@@ -41,7 +49,6 @@ header{
 
 .floatLeft{
     display: flex;
-    flex-direction: row;
     margin-bottom: 2em;
     padding: 0 3.8em;
 }
