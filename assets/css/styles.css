@@ -21,12 +21,6 @@ header{
     height: 60px;
     padding: 3em 3.8em 1em 3.8em;
 }
-.container{
-    display: flex;
-    align-items: center;
-    
-}
-
 .header-nav ul{
     display: flex;
     padding: 0;
@@ -56,7 +50,7 @@ header{
     width: 795px;
 }
 .LeftContainer #web3image img{
-    width: 766px;
+    width: 736px;
     height: 240px;
 }
 #rightToImage{
